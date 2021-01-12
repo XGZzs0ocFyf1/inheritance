@@ -3,6 +3,10 @@ package abstracted;
 import abstracted.model.TheCat;
 import abstracted.model.TheDog;
 
+
+/***
+ * Здесь разные тренируются котики и собаки
+ */
 public class AnimalGym {
 
     public static void main(String[] args) {

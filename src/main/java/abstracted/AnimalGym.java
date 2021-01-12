@@ -3,6 +3,10 @@ package abstracted;
 import abstracted.model.TheCat;
 import abstracted.model.TheDog;
 
+
+/***
+ * Здесь разные тренируются котики и собаки
+ */
 public class AnimalGym {
 
     public static void main(String[] args) {
@@ -26,6 +30,9 @@ public class AnimalGym {
         nyansus.jump(1);
         nyansus.jump(1.1);
         nyansus.swim(1);
+
+        System.out.println();
+        System.out.printf("Всего создано котиков: %s \n", TheCat.getTotalCats());
 
 //      бег 500, плавание 10, прыг 0.5
         System.out.println();
